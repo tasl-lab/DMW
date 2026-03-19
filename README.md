@@ -6,7 +6,10 @@
 
 **Preference Alignment of Vision-Language-Action Model for Personalized Driving**
 
-[![Paper](https://img.shields.io/badge/Paper-Link-blue)](https://cvpr.thecvf.com/)
+![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b)
+[![CVPR 2026](https://img.shields.io/badge/CVPR-2026-blue)](https://cvpr.thecvf.com/)
+[![Website](https://img.shields.io/badge/Website-DMW-orange)](https://dmw-cvpr.github.io/)
+![YouTube](https://img.shields.io/badge/YouTube-Coming%20Soon-red)
 [![Lab](https://img.shields.io/badge/Lab-TASL%40UCR-green)](https://tasl.ucr.edu/)
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
 
