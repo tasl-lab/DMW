@@ -51,11 +51,11 @@ PDD collects real human driving demonstrations across diverse scenarios in CARLA
 
 Sample drivers from the dataset, recorded at 2× speed:
 
-<video src="assets/videos/driver_01_grid.mp4" autoplay controls muted loop width="100%"></video>
+![Driver 01](assets/videos/driver_01_grid.gif)
 
-<video src="assets/videos/driver_02_grid.mp4" autoplay controls muted loop width="100%"></video>
+![Driver 02](assets/videos/driver_02_grid.gif)
 
-<video src="assets/videos/driver_14_grid.mp4" autoplay controls muted loop width="100%"></video>
+![Driver 14](assets/videos/driver_14_grid.gif)
 
 ---
 
