@@ -1,8 +1,4 @@
-<p align="left">
-  <img src="assets/images/dmw_logo.png" alt="DMW Logo" width="56"/>
-</p>
-
-# Drive My Way (DMW)
+# <img src="assets/images/dmw_logo.png" alt="DMW Logo" width="48" style="vertical-align:middle"/> Drive My Way (DMW)
 
 **Preference Alignment of Vision-Language-Action Model for Personalized Driving**
 
@@ -88,22 +84,18 @@ This installs Python 3.8 and base system packages. All Python dependencies are i
 pip install -r requirements.txt
 ```
 
-> **Note:** `flash-attn` is commented out in `requirements.txt` and must be installed separately (see step below), as it requires matching CUDA and PyTorch versions.
-
 #### Install flash-attention (optional but recommended for speed)
 
 ```bash
 pip install flash-attn==2.7.0.post2 --no-build-isolation
 ```
 
-Requires CUDA 12.1 and PyTorch 2.2.0. Skip if your hardware does not support it — the code falls back gracefully.
-
 ### 3. Install the Custom TRL Library (GRPO)
 
 This repo contains a stripped-down TRL fork with only GRPO training support.
 
 ```bash
-cd trl
+cd grpo
 pip install -e .
 cd ..
 ```
@@ -170,15 +162,13 @@ python -c "import transformers; print('Transformers:', transformers.__version__)
 
 ```
 DMW/
-├── grpo/                       # GRPO post-training
+├── grpo/                       # GRPO post-training (to be released)
 ├── model/                      # Model definitions
 ├── team_code/                  # CARLA agent
 ├── leaderboard/                # CARLA leaderboard evaluation
 ├── scenario_runner/            # CARLA scenario runner
 ├── pretrained/                 # Base VLM checkpoint (InternVL2-1B)
 ├── data/                       # Training / validation route configs and PDD splits
-├── assets/                     # Project page assets (images, videos)
-├── index.html                  # Project webpage
 ├── environment.yaml            # Conda environment spec
 ├── requirements.txt            # pip dependencies
 └── setup_carla.sh              # Environment variable setup
