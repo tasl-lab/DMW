@@ -7,7 +7,7 @@
 [![Website](https://img.shields.io/badge/Website-DMW-orange)](https://dmw-cvpr.github.io/)
 ![YouTube](https://img.shields.io/badge/YouTube-Coming%20Soon-red)
 [![Lab](https://img.shields.io/badge/Lab-TASL%40UCR-green)](https://tasl.ucr.edu/)
-[![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 [Zehao Wang](https://zehaowang983.github.io/)<sup>1</sup>, [Huaide Jiang](https://openreview.net/profile?id=%7EHuaide_Jiang1)<sup>1</sup>, [Shuaiwu Dong](https://www.linkedin.com/in/shuaiwu-dong-5523542a1/)<sup>1</sup>, [Yuping Wang](https://www.linkedin.com/in/yuping-wang-5a7178185/)<sup>1,2</sup>, [Hang Qiu](https://hangqiu.github.io/)<sup>1</sup>, [Jiachen Li](https://jiachenli94.github.io/)<sup>1\*</sup>
 
@@ -219,14 +219,6 @@ If you find this work useful, please cite:
 ```bibtex
 
 ```
-
----
-
-## License
-
-This project is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
-
----
 
 <p align="center">
   <a href="https://tasl.ucr.edu/">
