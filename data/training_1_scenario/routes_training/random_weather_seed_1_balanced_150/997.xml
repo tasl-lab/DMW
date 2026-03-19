@@ -1,0 +1,18 @@
+<routes><route id="0" town="Town12">
+      <weathers>
+         <weather route_percentage="0.0" cloudiness="50.0" precipitation="6.0" precipitation_deposits="30.0" wetness="8.0" wind_intensity="100.0" sun_azimuth_angle="315.0" sun_altitude_angle="60.0" fog_density="1.0" />
+         <weather route_percentage="100.0" cloudiness="15.0" precipitation="2.0" precipitation_deposits="8.0" wetness="2.0" wind_intensity="80.0" sun_azimuth_angle="180.0" sun_altitude_angle="80.0" fog_density="70.0" />
+      </weathers>
+      <waypoints>
+         <position x="-782.4" y="6487.2" z="360.9" />
+         <position x="-1050.5" y="6485.2" z="365.4" />
+         <position x="-1171.4" y="6476.8" z="369.9" />
+      </waypoints>
+      <scenarios>
+         <scenario name="HighwayCutIn_2" type="HighwayCutIn">
+            <trigger_point x="-803.3" y="6487.0" z="360.8" yaw="-179.6" />
+            <other_actor_location x="-834.3" y="6439.4" z="361.3" />
+         </scenario>
+      </scenarios>
+   </route>
+</routes>

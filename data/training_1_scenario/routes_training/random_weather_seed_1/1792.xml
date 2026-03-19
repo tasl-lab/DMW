@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<routes>
+   <route id="0" town="Town12">
+      <weathers>
+         <weather route_percentage="0.0" cloudiness="10.0" precipitation="8.0" precipitation_deposits="20.0" wetness="10.0" wind_intensity="30.0" sun_azimuth_angle="225.0" sun_altitude_angle="5.0" fog_density="8.0"/>
+         <weather route_percentage="100.0" cloudiness="5.0" precipitation="40.0" precipitation_deposits="100.0" wetness="10.0" wind_intensity="100.0" sun_azimuth_angle="135.0" sun_altitude_angle="0.0" fog_density="6.0"/>
+      </weathers>
+      <waypoints>
+         <position x="677.3" y="4069.4" z="370.8"/>
+         <position x="677.3" y="4050.0" z="370.8"/>
+         <position x="651.9" y="3977.3" z="371.1"/>
+      </waypoints>
+      <scenarios>
+         <scenario name="ParkingCrossingPedestrian_10" type="ParkingCrossingPedestrian">
+            <trigger_point x="677.3" y="4049.5" z="370.8" yaw="-90.0"/>
+            <direction value="right"/>
+         </scenario>
+      </scenarios>
+   </route>
+</routes>

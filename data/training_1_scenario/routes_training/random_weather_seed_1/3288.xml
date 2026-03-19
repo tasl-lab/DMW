@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<routes>
+   <route id="0" town="Town12">
+      <weathers>
+         <weather route_percentage="0.0" cloudiness="15.0" precipitation="15.0" precipitation_deposits="8.0" wetness="100.0" wind_intensity="5.0" sun_azimuth_angle="90.0" sun_altitude_angle="70.0" fog_density="3.0"/>
+         <weather route_percentage="100.0" cloudiness="100.0" precipitation="0.0" precipitation_deposits="30.0" wetness="40.0" wind_intensity="80.0" sun_azimuth_angle="90.0" sun_altitude_angle="-30.0" fog_density="3.0"/>
+      </weathers>
+      <waypoints>
+         <position x="490.9" y="3595.0" z="369.4"/>
+         <position x="355.9" y="3585.8" z="366.4"/>
+      </waypoints>
+      <scenarios>
+         <scenario name="HardBreakRoute_4" type="HardBreakRoute">
+            <trigger_point x="414.8" y="3595.1" z="368.0" yaw="179.9"/>
+         </scenario>
+      </scenarios>
+   </route>
+</routes>

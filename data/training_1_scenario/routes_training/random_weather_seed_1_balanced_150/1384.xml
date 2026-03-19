@@ -1,0 +1,19 @@
+<routes><route id="0" town="Town12">
+      <weathers>
+         <weather route_percentage="0.0" cloudiness="2.0" precipitation="8.0" precipitation_deposits="0.0" wetness="8.0" wind_intensity="25.0" sun_azimuth_angle="180.0" sun_altitude_angle="60.0" fog_density="1.0" />
+         <weather route_percentage="100.0" cloudiness="40.0" precipitation="60.0" precipitation_deposits="20.0" wetness="6.0" wind_intensity="25.0" sun_azimuth_angle="135.0" sun_altitude_angle="-15.0" fog_density="3.0" />
+      </weathers>
+      <waypoints>
+         <position x="2234.7" y="4566.3" z="362.3" />
+         <position x="2243.1" y="4517.1" z="361.6" />
+      </waypoints>
+      <scenarios>
+         <scenario name="ParkingExit_1" type="ParkingExit">
+            <trigger_point x="2234.7" y="4566.3" z="362.3" yaw="279.6" />
+            <direction value="right" />
+            <front_vehicle_distance value="9" />
+            <behind_vehicle_distance value="9" />
+         </scenario>
+      </scenarios>
+   </route>
+</routes>

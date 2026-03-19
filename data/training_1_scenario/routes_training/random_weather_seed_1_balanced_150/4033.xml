@@ -1,0 +1,17 @@
+<routes><route id="0" town="Town12">
+      <weathers>
+         <weather route_percentage="0.0" cloudiness="100.0" precipitation="40.0" precipitation_deposits="60.0" wetness="0.0" wind_intensity="100.0" sun_azimuth_angle="90.0" sun_altitude_angle="70.0" fog_density="15.0" />
+         <weather route_percentage="100.0" cloudiness="60.0" precipitation="20.0" precipitation_deposits="16.0" wetness="6.0" wind_intensity="80.0" sun_azimuth_angle="360.0" sun_altitude_angle="90.0" fog_density="1.0" />
+      </weathers>
+      <waypoints>
+         <position x="-62.1" y="3810.5" z="368.2" />
+         <position x="-70.1" y="3723.1" z="366.0" />
+      </waypoints>
+      <scenarios>
+         <scenario name="ParkingCrossingPedestrian_7" type="ParkingCrossingPedestrian">
+            <trigger_point x="-70.0" y="3795.2" z="367.9" yaw="-90.1" />
+            <direction value="left" />
+         </scenario>
+      </scenarios>
+   </route>
+</routes>

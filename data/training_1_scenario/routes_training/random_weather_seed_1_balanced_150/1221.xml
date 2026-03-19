@@ -1,0 +1,19 @@
+<routes><route id="0" town="Town12">
+      <weathers>
+         <weather route_percentage="0.0" cloudiness="20.0" precipitation="20.0" precipitation_deposits="50.0" wetness="80.0" wind_intensity="80.0" sun_azimuth_angle="45.0" sun_altitude_angle="10.0" fog_density="10.0" />
+         <weather route_percentage="100.0" cloudiness="60.0" precipitation="8.0" precipitation_deposits="60.0" wetness="6.0" wind_intensity="25.0" sun_azimuth_angle="90.0" sun_altitude_angle="-90.0" fog_density="20.0" />
+      </weathers>
+      <waypoints>
+         <position x="77.6" y="5201.2" z="370.3" />
+         <position x="-26.9" y="5196.1" z="371.6" />
+      </waypoints>
+      <scenarios>
+         <scenario name="CrossingBicycleFlow_6" type="CrossingBicycleFlow">
+            <trigger_point x="58.6" y="5209.4" z="370.5" yaw="156.7" />
+            <start_actor_flow x="36.4" y="5219.0" z="370.7" />
+            <flow_speed value="8" />
+            <source_dist_interval from="15" to="25" />
+         </scenario>
+      </scenarios>
+   </route>
+</routes>

@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<routes>
+   <route id="0" town="Town12">
+      <weathers>
+         <weather route_percentage="0.0" cloudiness="80.0" precipitation="8.0" precipitation_deposits="16.0" wetness="4.0" wind_intensity="80.0" sun_azimuth_angle="360.0" sun_altitude_angle="5.0" fog_density="70.0"/>
+         <weather route_percentage="100.0" cloudiness="60.0" precipitation="60.0" precipitation_deposits="60.0" wetness="20.0" wind_intensity="100.0" sun_azimuth_angle="135.0" sun_altitude_angle="60.0" fog_density="1.0"/>
+      </weathers>
+      <waypoints>
+         <position x="1434.6" y="4992.4" z="370.6"/>
+         <position x="1361.4" y="5040.5" z="370.8"/>
+      </waypoints>
+      <scenarios>
+         <scenario name="SignalizedJunctionLeftTurn_5" type="SignalizedJunctionLeftTurn">
+            <trigger_point x="1413.9" y="4992.5" z="370.7" yaw="179.9"/>
+            <flow_speed value="15"/>
+            <source_dist_interval from="25" to="60"/>
+         </scenario>
+      </scenarios>
+   </route>
+</routes>

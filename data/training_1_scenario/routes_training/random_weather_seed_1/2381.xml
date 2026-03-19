@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<routes>
+   <route id="0" town="Town12">
+      <weathers>
+         <weather route_percentage="0.0" cloudiness="0.0" precipitation="100.0" precipitation_deposits="60.0" wetness="40.0" wind_intensity="25.0" sun_azimuth_angle="315.0" sun_altitude_angle="-30.0" fog_density="3.0"/>
+         <weather route_percentage="100.0" cloudiness="20.0" precipitation="20.0" precipitation_deposits="12.0" wetness="8.0" wind_intensity="5.0" sun_azimuth_angle="180.0" sun_altitude_angle="60.0" fog_density="1.0"/>
+      </weathers>
+      <waypoints>
+         <position x="1160.4" y="4083.5" z="365.7"/>
+         <position x="1097.6" y="4033.1" z="367.1"/>
+         <position x="1099.2" y="4023.4" z="367.1"/>
+      </waypoints>
+      <scenarios>
+         <scenario name="BlockedIntersection_2" type="BlockedIntersection">
+            <trigger_point x="1140.5" y="4080.3" z="366.1" yaw="189.2"/>
+         </scenario>
+      </scenarios>
+   </route>
+</routes>

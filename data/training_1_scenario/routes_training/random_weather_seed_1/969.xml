@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<routes>
+   <route id="0" town="Town12">
+      <weathers>
+         <weather route_percentage="0.0" cloudiness="20.0" precipitation="80.0" precipitation_deposits="100.0" wetness="8.0" wind_intensity="25.0" sun_azimuth_angle="0.0" sun_altitude_angle="70.0" fog_density="4.0"/>
+         <weather route_percentage="100.0" cloudiness="100.0" precipitation="40.0" precipitation_deposits="8.0" wetness="6.0" wind_intensity="25.0" sun_azimuth_angle="360.0" sun_altitude_angle="-90.0" fog_density="40.0"/>
+      </weathers>
+      <waypoints>
+         <position x="3836.6" y="5375.0" z="367.5"/>
+         <position x="3698.7" y="5526.1" z="367.9"/>
+         <position x="3647.9" y="5558.2" z="368.1"/>
+      </waypoints>
+      <scenarios>
+         <scenario name="Accident_1" type="Accident">
+            <trigger_point x="3788.4" y="5440.7" z="367.7" yaw="123.2"/>
+            <distance value="100"/>
+            <direction value="left"/>
+         </scenario>
+      </scenarios>
+   </route>
+</routes>

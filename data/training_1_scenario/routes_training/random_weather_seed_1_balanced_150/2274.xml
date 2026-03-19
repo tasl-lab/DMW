@@ -1,0 +1,17 @@
+<routes><route id="0" town="Town12">
+      <weathers>
+         <weather route_percentage="0.0" cloudiness="20.0" precipitation="15.0" precipitation_deposits="8.0" wetness="60.0" wind_intensity="25.0" sun_azimuth_angle="180.0" sun_altitude_angle="5.0" fog_density="1.0" />
+         <weather route_percentage="100.0" cloudiness="20.0" precipitation="8.0" precipitation_deposits="8.0" wetness="20.0" wind_intensity="30.0" sun_azimuth_angle="45.0" sun_altitude_angle="90.0" fog_density="1.0" />
+      </weathers>
+      <waypoints>
+         <position x="3266.4" y="6294.3" z="369.9" />
+         <position x="2860.9" y="6227.6" z="372.9" />
+      </waypoints>
+      <scenarios>
+         <scenario name="YieldToEmergencyVehicle_3" type="YieldToEmergencyVehicle">
+            <trigger_point x="3245.7" y="6290.9" z="370.7" yaw="-170.7" />
+            <distance value="134.6" />
+         </scenario>
+      </scenarios>
+   </route>
+</routes>

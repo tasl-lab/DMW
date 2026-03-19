@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<routes>
+   <route id="0" town="Town12">
+      <weathers>
+         <weather route_percentage="0.0" cloudiness="80.0" precipitation="100.0" precipitation_deposits="50.0" wetness="100.0" wind_intensity="30.0" sun_azimuth_angle="135.0" sun_altitude_angle="-10.0" fog_density="1.0"/>
+         <weather route_percentage="100.0" cloudiness="80.0" precipitation="30.0" precipitation_deposits="4.0" wetness="100.0" wind_intensity="80.0" sun_azimuth_angle="135.0" sun_altitude_angle="45.0" fog_density="15.0"/>
+      </weathers>
+      <waypoints>
+         <position x="-1881.0" y="1438.2" z="328.9"/>
+         <position x="-1946.2" y="1327.1" z="323.6"/>
+      </waypoints>
+      <scenarios>
+         <scenario name="DynamicObjectCrossing_1" type="DynamicObjectCrossing">
+            <trigger_point x="-1899.2" y="1429.8" z="328.3" yaw="210.7"/>
+            <distance value="50"/>
+            <blocker_model value="vehicle.nissan.patrol_2021"/>
+            <crossing_angle value="15"/>
+         </scenario>
+      </scenarios>
+   </route>
+</routes>

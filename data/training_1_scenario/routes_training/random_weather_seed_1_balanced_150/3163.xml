@@ -1,0 +1,19 @@
+<routes><route id="0" town="Town12">
+      <weathers>
+         <weather route_percentage="0.0" cloudiness="2.0" precipitation="100.0" precipitation_deposits="4.0" wetness="100.0" wind_intensity="100.0" sun_azimuth_angle="360.0" sun_altitude_angle="10.0" fog_density="3.0" />
+         <weather route_percentage="100.0" cloudiness="50.0" precipitation="20.0" precipitation_deposits="60.0" wetness="6.0" wind_intensity="50.0" sun_azimuth_angle="45.0" sun_altitude_angle="10.0" fog_density="4.0" />
+      </weathers>
+      <waypoints>
+         <position x="1657.7" y="6065.3" z="367.7" />
+         <position x="1537.0" y="6066.1" z="367.5" />
+         <position x="1457.7" y="6066.6" z="367.9" />
+      </waypoints>
+      <scenarios>
+         <scenario name="StaticCutIn_5" type="StaticCutIn">
+            <trigger_point x="1637.6" y="6065.4" z="367.8" yaw="179.6" />
+            <distance value="109.6" />
+            <direction value="right" />
+         </scenario>
+      </scenarios>
+   </route>
+</routes>

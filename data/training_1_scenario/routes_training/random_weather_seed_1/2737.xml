@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<routes>
+   <route id="0" town="Town12">
+      <weathers>
+         <weather route_percentage="0.0" cloudiness="15.0" precipitation="20.0" precipitation_deposits="8.0" wetness="8.0" wind_intensity="30.0" sun_azimuth_angle="0.0" sun_altitude_angle="5.0" fog_density="0.0"/>
+         <weather route_percentage="100.0" cloudiness="20.0" precipitation="2.0" precipitation_deposits="30.0" wetness="4.0" wind_intensity="50.0" sun_azimuth_angle="315.0" sun_altitude_angle="-45.0" fog_density="8.0"/>
+      </weathers>
+      <waypoints>
+         <position x="1984.8" y="2210.6" z="363.0"/>
+         <position x="2162.8" y="2179.9" z="358.9"/>
+      </waypoints>
+      <scenarios>
+         <scenario name="ParkedObstacleTwoWays_2" type="ParkedObstacleTwoWays">
+            <trigger_point x="2013.2" y="2180.2" z="361.7" yaw="-0.2"/>
+            <distance value="80"/>
+            <frequency from="40" to="95"/>
+         </scenario>
+      </scenarios>
+   </route>
+</routes>

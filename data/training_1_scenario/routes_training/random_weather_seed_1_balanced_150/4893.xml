@@ -1,0 +1,20 @@
+<routes><route id="0" town="Town12">
+      <weathers>
+         <weather route_percentage="0.0" cloudiness="50.0" precipitation="80.0" precipitation_deposits="20.0" wetness="6.0" wind_intensity="10.0" sun_azimuth_angle="45.0" sun_altitude_angle="10.0" fog_density="0.0" />
+         <weather route_percentage="100.0" cloudiness="5.0" precipitation="60.0" precipitation_deposits="100.0" wetness="10.0" wind_intensity="100.0" sun_azimuth_angle="270.0" sun_altitude_angle="10.0" fog_density="1.0" />
+      </weathers>
+      <waypoints>
+         <position x="-3287.5" y="1853.6" z="347.7" />
+         <position x="-3082.7" y="1762.7" z="334.1" />
+         <position x="-3021.9" y="1764.1" z="331.7" />
+      </waypoints>
+      <scenarios>
+         <scenario name="HazardAtSideLaneTwoWays_6" type="HazardAtSideLaneTwoWays">
+            <trigger_point x="-3278.1" y="1835.9" z="346.5" yaw="294.5" />
+            <distance value="81.5" />
+            <frequency value="80" />
+            <bicycle_speed value="6" />
+         </scenario>
+      </scenarios>
+   </route>
+</routes>

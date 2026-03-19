@@ -1,0 +1,18 @@
+<routes><route id="0" town="Town12">
+      <weathers>
+         <weather route_percentage="0.0" cloudiness="40.0" precipitation="100.0" precipitation_deposits="20.0" wetness="20.0" wind_intensity="10.0" sun_azimuth_angle="135.0" sun_altitude_angle="-10.0" fog_density="100.0" />
+         <weather route_percentage="100.0" cloudiness="60.0" precipitation="15.0" precipitation_deposits="40.0" wetness="4.0" wind_intensity="10.0" sun_azimuth_angle="270.0" sun_altitude_angle="5.0" fog_density="10.0" />
+      </weathers>
+      <waypoints>
+         <position x="779.2" y="2738.7" z="352.1" />
+         <position x="779.1" y="2929.6" z="356.5" />
+      </waypoints>
+      <scenarios>
+         <scenario name="ConstructionObstacleTwoWays_2" type="ConstructionObstacleTwoWays">
+            <trigger_point x="779.2" y="2758.9" z="352.5" yaw="90.1" />
+            <distance value="99.5" />
+            <frequency from="45" to="110" />
+         </scenario>
+      </scenarios>
+   </route>
+</routes>

@@ -1,0 +1,20 @@
+<routes><route id="0" town="Town12">
+      <weathers>
+         <weather route_percentage="0.0" cloudiness="2.0" precipitation="80.0" precipitation_deposits="80.0" wetness="20.0" wind_intensity="25.0" sun_azimuth_angle="225.0" sun_altitude_angle="45.0" fog_density="10.0" />
+         <weather route_percentage="100.0" cloudiness="40.0" precipitation="8.0" precipitation_deposits="40.0" wetness="40.0" wind_intensity="30.0" sun_azimuth_angle="135.0" sun_altitude_angle="-15.0" fog_density="0.0" />
+      </weathers>
+      <waypoints>
+         <position x="883.6" y="2295.8" z="356.2" />
+         <position x="779.6" y="2384.2" z="350.7" />
+      </waypoints>
+      <scenarios>
+         <scenario name="InterurbanAdvancedActorFlow_1" type="InterurbanAdvancedActorFlow">
+            <trigger_point x="863.5" y="2295.8" z="355.7" yaw="180.0" />
+            <start_actor_flow x="783.1" y="2401.9" z="350.2" />
+            <end_actor_flow x="783.2" y="2192.1" z="355.0" />
+            <flow_speed value="18" />
+            <source_dist_interval from="20" to="75" />
+         </scenario>
+      </scenarios>
+   </route>
+</routes>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<routes>
+   <route id="0" town="Town12">
+      <weathers>
+         <weather route_percentage="0.0" cloudiness="50.0" precipitation="60.0" precipitation_deposits="16.0" wetness="2.0" wind_intensity="50.0" sun_azimuth_angle="315.0" sun_altitude_angle="70.0" fog_density="8.0"/>
+         <weather route_percentage="100.0" cloudiness="40.0" precipitation="30.0" precipitation_deposits="40.0" wetness="2.0" wind_intensity="10.0" sun_azimuth_angle="270.0" sun_altitude_angle="5.0" fog_density="100.0"/>
+      </weathers>
+      <waypoints>
+         <position x="2098.1" y="2641.4" z="364.7"/>
+         <position x="2049.8" y="2641.5" z="365.5"/>
+         <position x="1949.1" y="2641.9" z="367.0"/>
+      </waypoints>
+      <scenarios>
+         <scenario name="ControlLoss_7" type="ControlLoss">
+            <trigger_point x="2077.8" y="2641.6" z="365.0" yaw="179.8"/>
+         </scenario>
+      </scenarios>
+   </route>
+</routes>

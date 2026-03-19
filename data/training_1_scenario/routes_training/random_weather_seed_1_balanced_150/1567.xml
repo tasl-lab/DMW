@@ -1,0 +1,21 @@
+<routes><route id="0" town="Town12">
+      <weathers>
+         <weather route_percentage="0.0" cloudiness="40.0" precipitation="10.0" precipitation_deposits="16.0" wetness="60.0" wind_intensity="10.0" sun_azimuth_angle="135.0" sun_altitude_angle="90.0" fog_density="8.0" />
+         <weather route_percentage="100.0" cloudiness="50.0" precipitation="40.0" precipitation_deposits="40.0" wetness="8.0" wind_intensity="80.0" sun_azimuth_angle="315.0" sun_altitude_angle="90.0" fog_density="100.0" />
+      </weathers>
+      <waypoints>
+         <position x="-1031.3" y="3129.0" z="358.1" />
+         <position x="-1001.5" y="3135.2" z="359.8" />
+         <position x="-617.4" y="3129.7" z="358.7" />
+      </waypoints>
+      <scenarios>
+         <scenario name="MergerIntoSlowTraffic_3" type="MergerIntoSlowTraffic">
+            <trigger_point x="-1010.9" y="3133.4" z="359.3" yaw="10.8" />
+            <start_actor_flow x="-937.4" y="3115.6" z="363.0" />
+            <end_actor_flow x="-877.1" y="3192.4" z="363.0" />
+            <flow_speed value="12" />
+            <source_dist_interval from="10" to="35" />
+         </scenario>
+      </scenarios>
+   </route>
+</routes>
