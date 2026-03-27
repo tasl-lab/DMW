@@ -1,6 +1,6 @@
 # <img src="assets/images/dmw_logo.png" alt="DMW Logo" width="48" style="vertical-align:middle"/> Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving
 
-![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b)(https://arxiv.org/abs/2603.25740)
+[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b)](https://arxiv.org/abs/2603.25740)
 [![CVPR 2026](https://img.shields.io/badge/CVPR-2026-blue)](https://cvpr.thecvf.com/)
 [![Website](https://img.shields.io/badge/Website-DMW-orange)](https://dmw-cvpr.github.io/)
 ![YouTube](https://img.shields.io/badge/YouTube-Coming%20Soon-red)
