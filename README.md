@@ -157,7 +157,7 @@ This sets the following `PYTHONPATH` entries:
 - `$CARLA_ROOT/PythonAPI/carla`
 - `$WORK_DIR/scenario_runner_autopilot`
 - `$WORK_DIR/leaderboard_autopilot`
-- `$WORK_DIR/trl`
+- `$WORK_DIR/grpo`
 
 Add `source /path/to/setup_carla.sh` to your `.bashrc` / `.zshrc` to persist across sessions.
 
