@@ -1,8 +1,6 @@
-# <img src="assets/images/dmw_logo.png" alt="DMW Logo" width="48" style="vertical-align:middle"/> Drive My Way (DMW)
+# <img src="assets/images/dmw_logo.png" alt="DMW Logo" width="48" style="vertical-align:middle"/> Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving
 
-**Preference Alignment of Vision-Language-Action Model for Personalized Driving**
-
-![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b)
+![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b)(https://arxiv.org/abs/2603.25740)
 [![CVPR 2026](https://img.shields.io/badge/CVPR-2026-blue)](https://cvpr.thecvf.com/)
 [![Website](https://img.shields.io/badge/Website-DMW-orange)](https://dmw-cvpr.github.io/)
 ![YouTube](https://img.shields.io/badge/YouTube-Coming%20Soon-red)
@@ -55,6 +53,31 @@ Sample drivers from the dataset, recorded at 2× speed:
 ![Driver 02](assets/videos/driver_02_grid.gif)
 
 ![Driver 14](assets/videos/driver_14_grid.gif)
+
+---
+
+## Environment Setup
+
+- [Directory Structure](#directory-structure)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Common Issues](#common-issues)
+
+---
+
+## Directory Structure
+
+```
+DMW/
+├── grpo/                       # GRPO post-training (to be released)
+├── checkpoints/                # Checkpoints (to be released)
+├── model/                      # Model arch
+├── team_code/                  # CARLA agent
+├── leaderboard/                # CARLA leaderboard evaluation
+├── scenario_runner/            # CARLA scenario runner
+├── pretrained/                 # Base VLM checkpoint (InternVL2-1B)
+├── data/                       # Route configs
+```
 
 ---
 
@@ -158,40 +181,6 @@ python -c "import transformers; print('Transformers:', transformers.__version__)
 
 ---
 
-## Directory Structure
-
-```
-DMW/
-├── grpo/                       # GRPO post-training (to be released)
-├── model/                      # Model definitions
-├── team_code/                  # CARLA agent
-├── leaderboard/                # CARLA leaderboard evaluation
-├── scenario_runner/            # CARLA scenario runner
-├── pretrained/                 # Base VLM checkpoint (InternVL2-1B)
-├── data/                       # Training / validation route configs and PDD splits
-├── environment.yaml            # Conda environment spec
-├── requirements.txt            # pip dependencies
-└── setup_carla.sh              # Environment variable setup
-```
-
----
-
-## Key Version Summary
-
-| Package        | Version       |
-|----------------|---------------|
-| Python         | 3.8.18        |
-| PyTorch        | 2.2.0         |
-| CUDA           | 12.1          |
-| Transformers   | >= 4.55.0     |
-| Accelerate     | >= 1.4.0      |
-| DeepSpeed      | 0.16.2        |
-| PEFT           | 0.13.2        |
-| flash-attn     | 2.7.0.post2   |
-| CARLA          | 0.9.15        |
-
----
-
 ## Common Issues
 
 **`carla` module not found**
@@ -212,12 +201,26 @@ DMW/
 
 ---
 
+## Acknowledgements
+
+We sincerely thank the researchers and developers for [SimLingo](https://github.com/RenzKa/simlingo) for their amazing work.
+
+---
+
 ## Citation
 
 If you find this work useful, please cite:
 
 ```bibtex
-
+@misc{wang2026drivewaypreferencealignment,
+      title={Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving}, 
+      author={Zehao Wang and Huaide Jiang and Shuaiwu Dong and Yuping Wang and Hang Qiu and Jiachen Li},
+      year={2026},
+      eprint={2603.25740},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2603.25740}, 
+}
 ```
 
 <p align="center">
