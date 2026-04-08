@@ -44,7 +44,7 @@ Given camera observations and navigation goals, DMW fuses the driver's long-term
 
 PDD collects real human driving demonstrations across diverse scenarios in CARLA using a steering wheel setup. It covers a wide range of interactive scenarios: cut-ins, pedestrians, obstacle avoidance, merging, and more.
 
-**Download:** PDD is coming soon.
+**Download:** [PDD on Hugging Face](https://huggingface.co/datasets/tasl-lab/PDD/tree/main)
 
 Sample drivers from the dataset, recorded at 2× speed:
 
