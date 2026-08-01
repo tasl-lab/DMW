@@ -1,7 +1,7 @@
 # <img src="assets/images/dmw_logo.png" alt="DMW Logo" width="48" style="vertical-align:middle"/> Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b)](https://arxiv.org/abs/2603.25740)
-[![CVPR 2026](https://img.shields.io/badge/CVPR-2026-blue)](https://cvpr.thecvf.com/)
+[![CVPR 2026](https://img.shields.io/badge/CVPR-2026-blue)](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Drive_My_Way_Preference_Alignment_of_Vision-Language-Action_Model_for_Personalized_CVPR_2026_paper.html)
 [![Website](https://img.shields.io/badge/Website-DMW-orange)](https://dmw-cvpr.github.io/)
 ![YouTube](https://img.shields.io/badge/YouTube-Coming%20Soon-red)
 [![Lab](https://img.shields.io/badge/Lab-TASL%40UCR-green)](https://tasl.ucr.edu/)
@@ -212,14 +212,13 @@ We sincerely thank the researchers and developers for [SimLingo](https://github.
 If you find this work useful, please cite:
 
 ```bibtex
-@misc{wang2026drivewaypreferencealignment,
-      title={Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving}, 
-      author={Zehao Wang and Huaide Jiang and Shuaiwu Dong and Yuping Wang and Hang Qiu and Jiachen Li},
-      year={2026},
-      eprint={2603.25740},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2603.25740}, 
+@InProceedings{Wang_2026_CVPR,
+    author    = {Wang, Zehao and Jiang, Huaide and Dong, Shuaiwu and Wang, Yuping and Qiu, Hang and Li, Jiachen},
+    title     = {Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2026},
+    pages     = {25204-25214}
 }
 ```
 
